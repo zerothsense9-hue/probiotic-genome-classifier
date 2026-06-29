@@ -1,0 +1,10 @@
+genomes/
+features/
+data/
+scripts/
+__pycache__/
+*.zip
+*.fna
+*.fa
+*.fasta
+*.xlsx

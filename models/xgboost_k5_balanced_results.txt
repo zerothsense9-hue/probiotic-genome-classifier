@@ -1,0 +1,47 @@
+
+Balanced XGBoost Probiotic Genome Classifier
+============================================
+
+Feature file:
+D:\probiotic_genome_tool\features\kmer_features_k5_balanced.csv
+
+Total samples:
+745
+
+Training samples:
+596
+
+Testing samples:
+149
+
+Label meaning:
+1 = Probiotic
+0 = Non-probiotic / pathogenic
+
+Label counts:
+label
+1    402
+0    343
+
+Confusion Matrix:
+TN: 65
+FP: 4
+FN: 4
+TP: 76
+
+Accuracy:    0.9463
+Precision:   0.9500
+Recall:      0.9500
+Specificity: 0.9420
+F1 Score:    0.9500
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.94      0.94      0.94        69
+           1       0.95      0.95      0.95        80
+
+    accuracy                           0.95       149
+   macro avg       0.95      0.95      0.95       149
+weighted avg       0.95      0.95      0.95       149
+
